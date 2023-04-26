@@ -63,4 +63,4 @@ class CovidMDP:
                 prob_dict = {}
                 beds_normal, beds_covid, week, pop_before, pop_after = state
                 beds_normal_new = beds_normal - action[0]
-                beds_covid_new = beds_covid +
+                beds_covid_new = beds_covid + action
